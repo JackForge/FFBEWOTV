@@ -49,6 +49,11 @@ td {
   border: 1px solid black;
 }
 
+table img {
+  width: 30%;
+  max-width: 40px;
+}
+
 .main-nav a {
   text-align: center;
   display: block;
@@ -130,7 +135,7 @@ td {
 .hero-container {
   width: 90%;
   max-width: 574px;
-  background-image: url("../img/herobackground.jpg");
+  background-image: inherit;
   background-position: center;
   margin: 0 auto;
   margin-top: 20px;
@@ -162,10 +167,10 @@ td {
 
 /* Media Queries */
 
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
   .container {
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
   }
 
   .hero-container {
@@ -209,39 +214,39 @@ td {
     margin-left: 5px;
   }
 
-  .clearfix::after {
-  content: " ";
-  display: table;
-  clear: both;
 }
 
+.clearfix::after {
+content: " ";
+display: table;
+clear: both;
 }
-
 
 @media (min-width: 1025px;) {
   .container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-  }
-
-  .col {
+    max-width: 1050px;
     float: left;
   }
 
+
   .story {
     width: 50%;
+    position: absolute;
   }
 
   .vitals {
     width: 50%;
+    position: absolute;
   }
 
   .stats {
-    width: 50%;
+    width: 48%;
   }
 
   .ability-board {
-    width: 50%;
+    width: 48%;
   }
 
   .clearfix:: after {
