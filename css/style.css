@@ -73,8 +73,7 @@ table img {
 }
 
 .story {
-  width: 70%;
-  max-width: 700px;
+  width: 100%;
   margin: auto;
 }
 
@@ -87,8 +86,7 @@ table img {
 }
 
 .vitals {
-  width: 70%;
-  max-width: 700px;
+  width: 100%;
   margin: auto;
 }
 
@@ -105,8 +103,7 @@ table img {
 }
 
 .stats {
-  width: 70%;
-  max-width: 700px;
+  width: 100%;
   margin: auto;
 }
 
@@ -119,8 +116,7 @@ table img {
 }
 
 .ability-board {
-  width: 70%;
-  max-width: 700px;
+  width: 100%;
   margin: auto;
 }
 
@@ -167,7 +163,9 @@ table img {
 
 /* Media Queries */
 
-@media (min-width: 1000px) {
+
+
+@media (min-width: 768px) {
   .container {
     width: 90%;
     margin: auto;
